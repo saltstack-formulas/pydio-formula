@@ -10,3 +10,5 @@ pydio:
     repo_file: /etc/apt/sources.list.d/ajaxplorer.list
     # url to repository public key
     key_url: salt://pydio/pydio.pgp
+  pydiopass: verysecretmysqlpassword
+
