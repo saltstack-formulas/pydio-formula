@@ -24,18 +24,6 @@ creates a mysql database with password from pillar
 
 Installs apache configuration suitable for pydio
 
-``pydio.repo``
---------------
-
-Installs the debian pydio repo
-included in pydio.sls
-
-``pydio.mysql``
----------------
-
-Installs the pydio mysql database with password from pillar
-included in pydio.sls
-
 .. note::
 
     This formula works on Debian only
