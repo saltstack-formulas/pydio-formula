@@ -17,4 +17,13 @@ Available states
 ------------
 
 Installs pydio package and adds pydio's official repositories.
+creates a mysql database with password from pillar
 
+``pydio.apache``
+----------------
+
+Installs apache configuration suitable for pydio
+
+.. note::
+
+    This formula works on Debian only

@@ -5,7 +5,7 @@
       'pydio_repo': 'deb http://dl.ajaxplorer.info/repos/apt stable main',
       'pydio_src': 'deb-src http://dl.ajaxplorer.info/repos/apt stable main',
       'repo_file': '/etc/apt/sources.list.d/ajaxplorer.list',
-      'key_url': 'salt://pydio/pydio.pgp',
+      'key_url': 'salt://pydio/files/pydio.pgp',
 
     },
 }, merge=salt['pillar.get']('pydio:lookup')) %}
